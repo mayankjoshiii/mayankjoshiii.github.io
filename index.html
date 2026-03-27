@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mayank Joshi — Business Analyst & Data Analyst</title>
-<meta name="description" content="Mayank Joshi — Business Analyst & Data Analyst with 3+ years experience. MSc Business Analytics (Distinction), Swansea University. Python, SQL, Tableau, Plotly.js.">
+<title>Mayank Joshi &#8212; Business Analyst &amp; Data Analyst</title>
+<meta name="description" content="Mayank Joshi &#8212; Business Analyst &amp; Data Analyst with 3+ years experience. MSc Business Analytics (Distinction), Swansea University. Python, SQL, Tableau, Plotly.js.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -29,10 +29,7 @@
 html{scroll-behavior:smooth;}
 body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;cursor:default;}
 ::selection{background:var(--purple);color:#fff;}
-
-/* Smooth scroll wrapper */
 .smooth-wrapper{overflow:hidden;}
-
 /* --- NAV --- */
 nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:20px 0;transition:all .4s cubic-bezier(.4,0,.2,1);}
 nav.scrolled{padding:12px 0;background:rgba(8,8,10,.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
@@ -45,16 +42,13 @@ nav.scrolled{padding:12px 0;background:rgba(8,8,10,.85);backdrop-filter:blur(20p
 .nav-links a:hover{color:var(--text);}
 .nav-links a:hover::after{width:100%;}
 .nav-email{color:var(--accent)!important;font-size:.8rem;letter-spacing:.02em;}
-
 /* --- GLOW ORBS --- */
 .orb{position:fixed;border-radius:50%;pointer-events:none;filter:blur(120px);z-index:0;opacity:.5;}
 .orb-1{width:500px;height:500px;background:radial-gradient(circle,rgba(124,58,237,.2),transparent 70%);top:-100px;right:-150px;}
 .orb-2{width:400px;height:400px;background:radial-gradient(circle,rgba(59,130,246,.12),transparent 70%);bottom:20%;left:-100px;}
 .orb-3{width:350px;height:350px;background:radial-gradient(circle,rgba(167,139,250,.15),transparent 70%);top:60%;right:-80px;}
-
 /* --- CONTAINER --- */
 .container{max-width:1200px;margin:0 auto;padding:0 40px;position:relative;z-index:1;}
-
 /* --- HERO --- */
 .hero{min-height:100vh;display:flex;align-items:center;padding:140px 0 100px;position:relative;}
 .hero-grid{display:grid;grid-template-columns:1fr auto;gap:80px;align-items:center;}
@@ -79,7 +73,6 @@ nav.scrolled{padding:12px 0;background:rgba(8,8,10,.85);backdrop-filter:blur(20p
 .hero-avatar:hover img{border-color:var(--accent);}
 .hero-avatar::before{content:'';position:absolute;inset:-20px;border-radius:32px;background:radial-gradient(circle at center,rgba(124,58,237,.12),transparent 70%);z-index:-1;transition:opacity .4s;}
 .hero-avatar:hover::before{opacity:1.5;}
-
 /* --- SECTION COMMON --- */
 section{padding:120px 0;position:relative;}
 .section-eyebrow{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.15em;color:var(--accent);margin-bottom:16px;}
@@ -87,12 +80,10 @@ section{padding:120px 0;position:relative;}
 .section-heading em{font-style:italic;color:var(--accent);}
 .section-desc{color:var(--muted);font-size:1rem;max-width:480px;margin-bottom:56px;line-height:1.7;}
 .divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:0;}
-
 /* --- ABOUT --- */
 .about-text{font-size:clamp(1.2rem,2.5vw,1.7rem);font-weight:400;line-height:1.7;color:var(--muted);max-width:900px;}
 .about-text strong{color:var(--text);font-weight:600;}
 .about-text em{color:var(--accent);font-style:normal;font-weight:500;}
-
 /* --- WHAT I DO --- */
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--border);border-radius:16px;overflow:hidden;}
 .service{background:var(--surface);padding:40px 32px;transition:background .3s;}
@@ -100,7 +91,6 @@ section{padding:120px 0;position:relative;}
 .service-num{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:800;color:var(--accent);opacity:.4;margin-bottom:16px;line-height:1;}
 .service h3{font-size:1.1rem;font-weight:700;margin-bottom:10px;letter-spacing:-.01em;}
 .service p{font-size:.88rem;color:var(--muted);line-height:1.7;}
-
 /* --- EXPERIENCE TIMELINE --- */
 .timeline{display:flex;flex-direction:column;gap:0;}
 .timeline-item{display:grid;grid-template-columns:1fr auto;gap:40px;padding:48px 0;border-bottom:1px solid var(--border);align-items:start;}
@@ -109,14 +99,12 @@ section{padding:120px 0;position:relative;}
 .tl-company{color:var(--accent);font-size:.9rem;font-weight:500;margin-bottom:12px;display:block;}
 .tl-desc{color:var(--muted);font-size:.9rem;line-height:1.7;max-width:560px;}
 .tl-year{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3.5rem);font-weight:800;color:var(--surface2);-webkit-text-stroke:1px var(--border);line-height:1;}
-
 /* --- TECH STACK --- */
 .tech-wrap{display:flex;flex-wrap:wrap;gap:10px;}
 .tech-pill{padding:10px 20px;border-radius:100px;font-size:.82rem;font-weight:500;border:1px solid var(--border);color:var(--muted);background:var(--surface);transition:all .3s;cursor:default;}
 .tech-pill:hover{border-color:var(--accent);color:var(--accent);background:rgba(167,139,250,.05);transform:translateY(-2px);}
 .tech-category{margin-bottom:32px;}
 .tech-category-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:12px;opacity:.6;}
-
 /* --- PROJECTS --- */
 .projects-list{display:flex;flex-direction:column;gap:48px;}
 .project{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--surface);border:1px solid var(--border);border-radius:20px;overflow:hidden;transition:all .4s cubic-bezier(.4,0,.2,1);}
@@ -141,7 +129,6 @@ section{padding:120px 0;position:relative;}
 .proj-visual{background:var(--surface2);display:flex;align-items:center;justify-content:center;min-height:360px;position:relative;overflow:hidden;}
 .proj-visual iframe{width:100%;height:100%;border:none;position:absolute;inset:0;}
 .proj-visual .fallback{text-align:center;padding:24px;color:var(--muted);font-size:.85rem;}
-
 /* --- ACTIVITY --- */
 .activity-list{display:flex;flex-direction:column;gap:0;position:relative;padding-left:32px;}
 .activity-list::before{content:'';position:absolute;left:6px;top:12px;bottom:12px;width:1.5px;background:linear-gradient(180deg,var(--accent),var(--border),transparent);}
@@ -150,7 +137,6 @@ section{padding:120px 0;position:relative;}
 .activity-msg{font-size:.88rem;color:var(--muted);}
 .activity-msg strong{color:var(--text);}
 .activity-time{font-size:.76rem;color:var(--muted);opacity:.5;margin-top:4px;}
-
 /* --- CONTACT --- */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;}
 .contact-info h3{font-family:'Playfair Display',serif;font-size:clamp(2rem,3.5vw,2.8rem);font-weight:800;line-height:1.15;margin-bottom:24px;letter-spacing:-.02em;}
@@ -166,21 +152,20 @@ section{padding:120px 0;position:relative;}
 .contact-card:hover{border-color:var(--accent);}
 .contact-card h4{font-size:.95rem;font-weight:700;margin-bottom:6px;}
 .contact-card p{font-size:.85rem;color:var(--muted);line-height:1.6;}
-
 /* --- FOOTER --- */
 footer{border-top:1px solid var(--border);padding:40px 0;text-align:center;}
 footer .foot-links{display:flex;gap:32px;justify-content:center;margin-bottom:12px;}
 footer a{color:var(--muted);text-decoration:none;font-size:.82rem;font-weight:500;transition:color .3s;letter-spacing:.03em;text-transform:uppercase;}
 footer a:hover{color:var(--accent);}
 footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
-
 /* --- RESUME FLOAT --- */
 .resume-float{position:fixed;bottom:32px;right:32px;z-index:999;display:flex;align-items:center;gap:8px;padding:12px 20px;background:var(--surface);border:1px solid var(--border);border-radius:12px;color:var(--muted);font-size:.8rem;font-weight:600;text-decoration:none;letter-spacing:.05em;text-transform:uppercase;transition:all .3s;backdrop-filter:blur(12px);}
 .resume-float:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px);}
-
+/* --- SKELETON LOADING --- */
+.skeleton{background:linear-gradient(90deg,var(--surface) 25%,var(--surface2) 50%,var(--surface) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:12px;min-height:200px;}
+@keyframes shimmer{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
 /* --- ANIMATIONS --- */
-/* Animations handled by GSAP */
-
+/* Animations handled by GSAP fromTo() â no CSS opacity:0 hiding */
 /* --- RESPONSIVE --- */
 @media(max-width:900px){
   .hero-grid{grid-template-columns:1fr;gap:40px;}
@@ -205,12 +190,10 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
 </style>
 </head>
 <body>
-
 <!-- GLOW ORBS -->
 <div class="orb orb-1"></div>
 <div class="orb orb-2"></div>
 <div class="orb orb-3"></div>
-
 <!-- NAV -->
 <nav id="nav">
   <div class="nav-inner">
@@ -224,7 +207,6 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
     </div>
   </div>
 </nav>
-
 <!-- HERO -->
 <section class="hero">
   <div class="container">
@@ -234,37 +216,33 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
         <h1>I turn raw data into <em>business decisions.</em></h1>
         <p class="hero-sub">Business Analyst and Data Analyst with 3+ years of industry experience. I build end-to-end pipelines, interactive dashboards, and ML models that drive measurable outcomes.</p>
         <div class="hero-meta">
-          <span>MSc Business Analytics — Distinction</span>
+          <span>MSc Business Analytics &#8212; Distinction</span>
           <span>Swansea University, UK</span>
           <span>Open worldwide</span>
         </div>
         <div class="hero-actions">
-          <a href="https://www.linkedin.com/in/mayankjoshi518/" target="_blank" class="btn btn-primary">Connect on LinkedIn →</a>
+          <a href="https://www.linkedin.com/in/mayankjoshi518/" target="_blank" class="btn btn-primary">Connect on LinkedIn &#8594;</a>
           <a href="https://github.com/mayankjoshiii" target="_blank" class="btn btn-outline">View GitHub</a>
           <a href="mailto:mayankjoshi518@gmail.com" class="btn btn-outline">Email Me</a>
         </div>
       </div>
       <div class="hero-avatar">
-        <img src="https://avatars.githubusercontent.com/u/268916845?v=4" alt="Mayank Joshi" id="avatar">
+        <img src="https://avatars.githubusercontent.com/u/268916845?v=4" alt="Mayank Joshi" id="avatar" onerror="this.style.display='none'">
       </div>
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
-
 <!-- ABOUT -->
 <section id="about">
   <div class="container">
     <p class="section-eyebrow">About Me</p>
     <div class="about-text reveal">
-      I completed my <strong>MSc in Management (Business Analytics)</strong> with Distinction at Swansea University in January 2026. Before that, I spent <strong>3+ years</strong> working across business analysis, data analytics, and operations — primarily in <em>enterprise mobility</em> and <em>financial services</em>. My approach: start with the business question, then work backwards through the data. I work daily with <em>AI tools</em> like Claude and ChatGPT to accelerate research and analysis. Applying for my <strong>Graduate visa in May 2026</strong> and available for full-time work immediately.
+      I completed my <strong>MSc in Management (Business Analytics)</strong> with Distinction at Swansea University in January 2026. Before that, I spent <strong>3+ years</strong> working across business analysis, data analytics, and operations &#8212; primarily in <em>enterprise mobility</em> and <em>financial services</em>. My approach: start with the business question, then work backwards through the data. I work daily with <em>AI tools</em> like Claude and ChatGPT to accelerate research and analysis. Applying for my <strong>Graduate visa in May 2026</strong> and available for full-time work immediately.
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
-
 <!-- WHAT I DO -->
 <section id="work">
   <div class="container">
@@ -285,14 +263,12 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
       <div class="service reveal">
         <div class="service-num">03</div>
         <h3>Machine Learning</h3>
-        <p>End-to-end ML pipelines with scikit-learn — from feature engineering to model evaluation. Churn prediction, classification, regression.</p>
+        <p>End-to-end ML pipelines with scikit-learn &#8212; from feature engineering to model evaluation. Churn prediction, classification, regression.</p>
       </div>
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
-
 <!-- EXPERIENCE -->
 <section>
   <div class="container">
@@ -327,148 +303,32 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
-
-<!-- TECH STACK -->
+<!-- TECH STACK (dynamically populated) -->
 <section id="skills">
   <div class="container">
     <p class="section-eyebrow">Tech Stack</p>
     <h2 class="section-heading">My <em>techstack</em></h2>
     <p class="section-desc">Tools and technologies used across projects and professional experience.</p>
-    <div class="tech-category reveal">
-      <div class="tech-category-label">Data &amp; Analytics</div>
-      <div class="tech-wrap">
-        <span class="tech-pill">Python</span>
-        <span class="tech-pill">SQL</span>
-        <span class="tech-pill">Pandas</span>
-        <span class="tech-pill">scikit-learn</span>
-        <span class="tech-pill">NumPy</span>
-      </div>
-    </div>
-    <div class="tech-category reveal">
-      <div class="tech-category-label">Visualisation</div>
-      <div class="tech-wrap">
-        <span class="tech-pill">Tableau</span>
-        <span class="tech-pill">Plotly.js</span>
-        <span class="tech-pill">Excel (Advanced)</span>
-        <span class="tech-pill">Matplotlib</span>
-        <span class="tech-pill">Seaborn</span>
-      </div>
-    </div>
-    <div class="tech-category reveal">
-      <div class="tech-category-label">Tools &amp; Platforms</div>
-      <div class="tech-wrap">
-        <span class="tech-pill">Jupyter</span>
-        <span class="tech-pill">GitHub Pages</span>
-        <span class="tech-pill">VS Code</span>
-        <span class="tech-pill">Notion</span>
-        <span class="tech-pill">Claude / ChatGPT</span>
-      </div>
-    </div>
-    <div class="tech-category reveal">
-      <div class="tech-category-label">Methodology</div>
-      <div class="tech-wrap">
-        <span class="tech-pill">Agile / Scrum</span>
-        <span class="tech-pill">EDA</span>
-        <span class="tech-pill">Feature Engineering</span>
-        <span class="tech-pill">A/B Testing</span>
-      </div>
+    <div id="skills-container">
+      <div class="skeleton" style="height:300px;"></div>
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
-
-<!-- PROJECTS -->
+<!-- PROJECTS (dynamically populated) -->
 <section id="projects">
   <div class="container">
     <p class="section-eyebrow">Portfolio</p>
     <h2 class="section-heading">My <em>Work</em></h2>
-    <p class="section-desc">Each project has a live interactive dashboard. Click to explore.</p>
-    <div class="projects-list">
-
-      <!-- Project 1 -->
-      <div class="project reveal">
-        <div class="proj-content">
-          <div class="proj-num">01</div>
-          <div class="proj-type">Financial Analysis</div>
-          <h3 class="proj-name">Financial KPI Dashboard</h3>
-          <p class="proj-desc">End-to-end financial dashboard on UK retail sales data. Revenue vs budget trend lines, gross margin &amp; EBITDA tracking, P&amp;L waterfall, Budget Variance RAG table, and regional heatmap.</p>
-          <div class="proj-stats">
-            <div class="stat"><div class="stat-val">9</div><div class="stat-label">Chart Types</div></div>
-            <div class="stat"><div class="stat-val">RAG</div><div class="stat-label">Variance Table</div></div>
-            <div class="stat"><div class="stat-val">P&amp;L</div><div class="stat-label">Waterfall</div></div>
-          </div>
-          <div class="proj-tech">
-            <span>Excel (Advanced)</span><span>Python</span><span>Plotly.js</span><span>GitHub Pages</span>
-          </div>
-          <div class="proj-actions">
-            <a href="https://mayankjoshiii.github.io/financial-kpi-dashboard/" target="_blank" class="proj-btn proj-btn-live">Live Dashboard →</a>
-            <a href="https://github.com/mayankjoshiii/financial-kpi-dashboard" target="_blank" class="proj-btn proj-btn-repo">Source Code</a>
-          </div>
-        </div>
-        <div class="proj-visual">
-          <iframe src="https://mayankjoshiii.github.io/financial-kpi-dashboard/" loading="lazy" sandbox="allow-scripts allow-same-origin" title="Financial KPI Dashboard"></iframe>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="project reveal">
-        <div class="proj-content">
-          <div class="proj-num">02</div>
-          <div class="proj-type">Machine Learning</div>
-          <h3 class="proj-name">Customer Churn Prediction</h3>
-          <p class="proj-desc">ML pipeline on Telco Churn data (7,043 records): SQL exploration, feature engineering, logistic regression + random forest. Top 3 churn drivers identified with actionable retention strategy.</p>
-          <div class="proj-stats">
-            <div class="stat"><div class="stat-val">82%</div><div class="stat-label">Accuracy</div></div>
-            <div class="stat"><div class="stat-val">0.86</div><div class="stat-label">AUC-ROC</div></div>
-            <div class="stat"><div class="stat-val">£340K</div><div class="stat-label">Projected Saving</div></div>
-          </div>
-          <div class="proj-tech">
-            <span>Python</span><span>SQL</span><span>scikit-learn</span><span>Plotly.js</span><span>GitHub Pages</span>
-          </div>
-          <div class="proj-actions">
-            <a href="https://mayankjoshiii.github.io/customer-churn-prediction/" target="_blank" class="proj-btn proj-btn-live">Live Dashboard →</a>
-            <a href="https://github.com/mayankjoshiii/customer-churn-prediction" target="_blank" class="proj-btn proj-btn-repo">Source Code</a>
-          </div>
-        </div>
-        <div class="proj-visual">
-          <iframe src="https://mayankjoshiii.github.io/customer-churn-prediction/" loading="lazy" sandbox="allow-scripts allow-same-origin" title="Customer Churn Prediction"></iframe>
-        </div>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="project reveal">
-        <div class="proj-content">
-          <div class="proj-num">03</div>
-          <div class="proj-type">Web Scraping &amp; Market Research</div>
-          <h3 class="proj-name">UK Job Market Analysis</h3>
-          <p class="proj-desc">Scraped and analysed 5,000+ UK job listings to uncover demand trends for BA/DA roles — top skills, salary distributions by region, remote vs hybrid patterns, and fastest-growing sectors.</p>
-          <div class="proj-stats">
-            <div class="stat"><div class="stat-val">5K+</div><div class="stat-label">Listings Analysed</div></div>
-            <div class="stat"><div class="stat-val">£47.5K</div><div class="stat-label">London Median</div></div>
-            <div class="stat"><div class="stat-val">62%</div><div class="stat-label">Hybrid Roles</div></div>
-          </div>
-          <div class="proj-tech">
-            <span>Python</span><span>BeautifulSoup</span><span>Plotly.js</span><span>GitHub Pages</span>
-          </div>
-          <div class="proj-actions">
-            <a href="https://mayankjoshiii.github.io/uk-job-market-analysis/" target="_blank" class="proj-btn proj-btn-live">Live Dashboard →</a>
-            <a href="https://github.com/mayankjoshiii/uk-job-market-analysis" target="_blank" class="proj-btn proj-btn-repo">Source Code</a>
-          </div>
-        </div>
-        <div class="proj-visual">
-          <iframe src="https://mayankjoshiii.github.io/uk-job-market-analysis/" loading="lazy" sandbox="allow-scripts allow-same-origin" title="UK Job Market Analysis"></iframe>
-        </div>
-      </div>
-
+    <p class="section-desc" id="projects-desc">Each project has a live interactive dashboard. Click to explore.</p>
+    <div class="projects-list" id="projects-list">
+      <div class="skeleton" style="height:360px;"></div>
+      <div class="skeleton" style="height:360px;"></div>
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
-
 <!-- ACTIVITY -->
 <section id="activity">
   <div class="container">
@@ -476,13 +336,11 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
     <h2 class="section-heading">Recent GitHub <em>Activity</em></h2>
     <p class="section-desc">Live from the GitHub Events API.</p>
     <div class="activity-list" id="activity-timeline">
-      <div class="activity-item"><div class="activity-msg" style="opacity:.5;">Loading latest activity…</div></div>
+      <div class="activity-item"><div class="activity-msg" style="opacity:.5;">Loading latest activity&#8230;</div></div>
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
-
 <!-- CONTACT -->
 <section id="contact">
   <div class="container">
@@ -497,15 +355,15 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
           </div>
           <div class="contact-link">
             <span class="contact-link-label">Location</span>
-            <span>Swansea, UK — Open worldwide</span>
+            <span>Swansea, UK &#8212; Open worldwide</span>
           </div>
           <div class="contact-link">
             <span class="contact-link-label">Social</span>
-            <a href="https://www.linkedin.com/in/mayankjoshi518/" target="_blank">LinkedIn ↗</a>
+            <a href="https://www.linkedin.com/in/mayankjoshi518/" target="_blank">LinkedIn &#8599;</a>
           </div>
           <div class="contact-link">
             <span class="contact-link-label">Code</span>
-            <a href="https://github.com/mayankjoshiii" target="_blank">GitHub ↗</a>
+            <a href="https://github.com/mayankjoshiii" target="_blank">GitHub &#8599;</a>
           </div>
         </div>
       </div>
@@ -526,7 +384,6 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
     </div>
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer>
   <div class="container">
@@ -535,121 +392,490 @@ footer p{color:var(--muted);font-size:.76rem;opacity:.5;}
       <a href="https://github.com/mayankjoshiii" target="_blank">GitHub</a>
       <a href="mailto:mayankjoshi518@gmail.com">Email</a>
     </div>
-    <p>Mayank Joshi · Portfolio auto-updates from GitHub API</p>
+    <p id="footer-text">Mayank Joshi &#183; Portfolio auto-updates from GitHub API</p>
   </div>
 </footer>
-
 <!-- RESUME FLOAT -->
 <a href="mailto:mayankjoshi518@gmail.com" class="resume-float" id="resume-float" style="opacity:0;transform:translateY(20px);">
-  Get in Touch ↗
+  Get in Touch &#8599;
 </a>
 
 <script>
-/* --- NAV SCROLL --- */
-const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>60);});
+/* ============================================================
+   SITE_CONFIG â the single source of truth for manual content.
+   To add a new project: create a GitHub repo with topics,
+   enable GitHub Pages, and optionally add an entry here
+   for custom stats/ordering. It will auto-appear.
+   ============================================================ */
+const SITE_CONFIG = {
+  github: 'mayankjoshiii',
+  api: 'https://api.github.com',
 
-/* --- GSAP ANIMATIONS --- */
-gsap.registerPlugin(ScrollTrigger);
+  /* Repos to exclude from portfolio (e.g. the portfolio site itself) */
+  excludeRepos: ['mayankjoshiii.github.io', 'mayankjoshiii'],
 
-// Hero stagger entrance
-const heroTl=gsap.timeline({defaults:{ease:'power3.out',duration:1}});
-heroTl
-  .fromTo('.hero-tag',{y:30,opacity:0},{y:0,opacity:1,duration:.6})
-  .fromTo('.hero h1',{y:50,opacity:0},{y:0,opacity:1},'<0.15')
-  .fromTo('.hero-sub',{y:30,opacity:0},{y:0,opacity:1,duration:.7},'<0.2')
-  .fromTo('.hero-meta span',{y:20,opacity:0},{y:0,opacity:1,stagger:.1,duration:.5},'<0.15')
-  .fromTo('.hero-actions .btn',{y:20,opacity:0},{y:0,opacity:1,stagger:.1,duration:.5},'<0.1')
-  .fromTo('.hero-avatar',{scale:.9,opacity:0},{scale:1,opacity:1,duration:.8},'<0.1');
+  /* Per-project overrides: custom stats, category labels, display order.
+     Key = repo name. Repos not listed here still appear (from API)
+     but without custom stats and with auto-generated category. */
+  projects: {
+    'financial-kpi-dashboard': {
+      order: 1,
+      type: 'Financial Analysis',
+      stats: [
+        { val: '9', label: 'Chart Types' },
+        { val: 'RAG', label: 'Variance Table' },
+        { val: 'P&L', label: 'Waterfall' }
+      ]
+    },
+    'customer-churn-prediction': {
+      order: 2,
+      type: 'Machine Learning',
+      stats: [
+        { val: '82%', label: 'Accuracy' },
+        { val: '0.86', label: 'AUC-ROC' },
+        { val: '\u00A3340K', label: 'Projected Saving' }
+      ]
+    },
+    'uk-job-market-analysis': {
+      order: 3,
+      type: 'Web Scraping & Market Research',
+      stats: [
+        { val: '5K+', label: 'Listings Analysed' },
+        { val: '\u00A347.5K', label: 'London Median' },
+        { val: '62%', label: 'Hybrid Roles' }
+      ]
+    },
+    'ml-explainability-dashboard': {
+      order: 4,
+      type: 'ML Ops & Interpretability',
+      stats: [
+        { val: 'SHAP', label: 'Explanations' },
+        { val: 'PSI', label: 'Drift Detection' },
+        { val: '3', label: 'Model Types' }
+      ]
+    },
+    'rag-analytics-dashboard': {
+      order: 5,
+      type: 'AI & Retrieval Systems',
+      stats: [
+        { val: 'MRR', label: 'Retrieval Quality' },
+        { val: 'NDCG', label: 'Ranking Metric' },
+        { val: '2D/3D', label: 'Embeddings Viz' }
+      ]
+    },
+    'nlp-sentiment-dashboard': {
+      order: 6,
+      type: 'NLP & Text Analytics',
+      stats: [
+        { val: 'TF-IDF', label: 'Feature Extraction' },
+        { val: 'Aspect', label: 'Based Analysis' },
+        { val: '5K+', label: 'Reviews Processed' }
+      ]
+    },
+    'customer-intelligence-dashboard': {
+      order: 7,
+      type: 'Customer Analytics',
+      stats: [
+        { val: 'K-Means', label: 'Clustering' },
+        { val: 'RFM', label: 'Segmentation' },
+        { val: 'Sankey', label: 'Journey Flows' }
+      ]
+    },
+    'realtime-operations-dashboard': {
+      order: 8,
+      type: 'Operations & Monitoring',
+      stats: [
+        { val: 'Live', label: 'KPI Tracking' },
+        { val: 'Geo', label: 'Heatmaps' },
+        { val: 'SLA', label: 'Compliance' }
+      ]
+    },
+    'timeseries-forecasting-dashboard': {
+      order: 9,
+      type: 'Time-Series & Forecasting',
+      stats: [
+        { val: 'ARIMA', label: 'Forecasting' },
+        { val: 'STL', label: 'Decomposition' },
+        { val: 'ACF', label: 'Autocorrelation' }
+      ]
+    },
+    'ab-testing-dashboard': {
+      order: 10,
+      type: 'Experimentation & Statistics',
+      stats: [
+        { val: 'Bayesian', label: 'Analysis' },
+        { val: 'SRM', label: 'Ratio Mismatch' },
+        { val: 'Power', label: 'Calculator' }
+      ]
+    }
+  },
 
-// Reveal elements on scroll
-document.querySelectorAll('.reveal:not(.service):not(.timeline-item):not(.tech-category):not(.project)').forEach(el=>{
-  gsap.fromTo(el, 
-    {y:50, opacity:0}, 
-    {y:0, opacity:1, duration:.8, ease:'power2.out', scrollTrigger:{trigger:el, start:'top 85%', toggleActions:'play none none none'}}
-  );
-});
+  /* Skills that should appear but are not GitHub topics
+     (tools, methodologies, professional skills) */
+  skillOverrides: {
+    'Data & Analytics': ['Python', 'SQL', 'Pandas', 'scikit-learn', 'NumPy'],
+    'Visualisation': ['Tableau', 'Plotly.js', 'Excel (Advanced)', 'Matplotlib', 'Seaborn'],
+    'Tools & Platforms': ['Jupyter', 'GitHub Pages', 'VS Code', 'Notion', 'Claude / ChatGPT'],
+    'Methodology': ['Agile / Scrum', 'EDA', 'Feature Engineering', 'A/B Testing']
+  },
 
-// Service cards stagger
-gsap.fromTo('.service', 
-  {y:40, opacity:0},
-  {y:0, opacity:1, stagger:.15, duration:.7, ease:'power2.out', scrollTrigger:{trigger:'.services-grid', start:'top 80%'}}
-);
+  /* Topic-to-display-name mapping (GitHub topics are lowercase-hyphenated) */
+  topicDisplayNames: {
+    'python': 'Python', 'sql': 'SQL', 'pandas': 'Pandas',
+    'scikit-learn': 'scikit-learn', 'numpy': 'NumPy',
+    'plotly': 'Plotly.js', 'plotly-js': 'Plotly.js', 'plotlyjs': 'Plotly.js',
+    'tableau': 'Tableau', 'matplotlib': 'Matplotlib', 'seaborn': 'Seaborn',
+    'excel': 'Excel (Advanced)', 'jupyter': 'Jupyter',
+    'github-pages': 'GitHub Pages', 'beautifulsoup': 'BeautifulSoup',
+    'machine-learning': 'Machine Learning', 'data-analysis': 'Data Analysis',
+    'nlp': 'NLP', 'time-series': 'Time Series', 'deep-learning': 'Deep Learning',
+    'tensorflow': 'TensorFlow', 'pytorch': 'PyTorch', 'r': 'R',
+    'javascript': 'JavaScript', 'html': 'HTML', 'css': 'CSS',
+    'data-visualization': 'Data Visualisation', 'dashboard': 'Dashboard',
+    'statistics': 'Statistics', 'hypothesis-testing': 'Hypothesis Testing',
+    'web-scraping': 'Web Scraping', 'api': 'API Integration',
+    'shap': 'SHAP', 'bayesian': 'Bayesian Methods'
+  },
 
-// Timeline items
-gsap.fromTo('.timeline-item', 
-  {y:40, opacity:0},
-  {y:0, opacity:1, stagger:.2, duration:.7, ease:'power2.out', scrollTrigger:{trigger:'.timeline', start:'top 80%'}}
-);
+  /* Map topics to skill categories */
+  topicCategories: {
+    'python': 'Data & Analytics', 'sql': 'Data & Analytics', 'pandas': 'Data & Analytics',
+    'scikit-learn': 'Data & Analytics', 'numpy': 'Data & Analytics', 'r': 'Data & Analytics',
+    'tensorflow': 'Data & Analytics', 'pytorch': 'Data & Analytics',
+    'plotly': 'Visualisation', 'plotly-js': 'Visualisation', 'plotlyjs': 'Visualisation',
+    'tableau': 'Visualisation', 'matplotlib': 'Visualisation', 'seaborn': 'Visualisation',
+    'data-visualization': 'Visualisation', 'excel': 'Visualisation',
+    'jupyter': 'Tools & Platforms', 'github-pages': 'Tools & Platforms',
+    'beautifulsoup': 'Tools & Platforms', 'web-scraping': 'Tools & Platforms',
+    'machine-learning': 'Methodology', 'statistics': 'Methodology',
+    'hypothesis-testing': 'Methodology', 'nlp': 'Methodology',
+    'time-series': 'Methodology', 'deep-learning': 'Methodology',
+    'data-analysis': 'Methodology', 'bayesian': 'Methodology', 'shap': 'Methodology'
+  },
 
-// Tech pills
-gsap.fromTo('.tech-pill', 
-  {y:15, opacity:0},
-  {y:0, opacity:1, stagger:.03, duration:.4, ease:'power2.out', scrollTrigger:{trigger:'#skills', start:'top 75%'}}
-);
+  /* Cache TTL in ms (30 minutes) */
+  cacheTTL: 30 * 60 * 1000
+};
 
-// Project cards
-document.querySelectorAll('.project').forEach(proj=>{
-  gsap.fromTo(proj, 
-    {y:60, opacity:0},
-    {y:0, opacity:1, duration:.9, ease:'power2.out', scrollTrigger:{trigger:proj, start:'top 85%'}}
-  );
-});
+/* ============================================================
+   DATA LAYER â fetch from GitHub API with sessionStorage cache
+   ============================================================ */
+const GH = SITE_CONFIG.github;
+const API = SITE_CONFIG.api;
 
-// Resume float button
-gsap.fromTo('#resume-float', 
-  {y:20, opacity:0},
-  {y:0, opacity:1, duration:.5, ease:'power2.out', scrollTrigger:{trigger:'#about', start:'top center'}}
-);
-
-// Parallax orbs
-gsap.to('.orb-1',{y:-100,scrollTrigger:{scrub:1}});
-gsap.to('.orb-2',{y:80,scrollTrigger:{scrub:1}});
-gsap.to('.orb-3',{y:-60,scrollTrigger:{scrub:1}});
-
-// Fallback safety net to ensure visibility
-setTimeout(()=>{
-  gsap.globalTimeline.clear();
-  const selectors='.hero-tag,.hero h1,.hero-sub,.hero-meta span,.hero-actions .btn,.hero-avatar,.reveal,.service,.timeline-item,.tech-pill,.project,#resume-float';
-  document.querySelectorAll(selectors).forEach(el=>{
-    gsap.killTweensOf(el);
-    gsap.set(el,{opacity:1,y:0,scale:1,clearProps:'transform'});
-  });
-}, 2000);
-
-/* --- GITHUB API --- */
-const GH='mayankjoshiii',API='https://api.github.com';
-
-function timeAgo(d){
-  const m=Math.floor((Date.now()-new Date(d))/60000);
-  if(m<60)return m+'m ago';
-  const h=Math.floor(m/60);if(h<24)return h+'h ago';
-  const dy=Math.floor(h/24);if(dy<30)return dy+'d ago';
-  return new Date(d).toLocaleDateString('en-GB',{day:'numeric',month:'short'});
+function cachedFetch(url, key) {
+  try {
+    const cached = sessionStorage.getItem(key);
+    if (cached) {
+      const { data, ts } = JSON.parse(cached);
+      if (Date.now() - ts < SITE_CONFIG.cacheTTL) return Promise.resolve(data);
+    }
+  } catch (e) { /* ignore cache errors */ }
+  return fetch(url)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      try { sessionStorage.setItem(key, JSON.stringify({ data, ts: Date.now() })); } catch (e) {}
+      return data;
+    });
 }
 
-fetch(`${API}/users/${GH}/events/public?per_page=30`)
-  .then(r=>r.json())
-  .then(events=>{
-    const el=document.getElementById('activity-timeline');
-    const items=events.filter(e=>['PushEvent','CreateEvent','PullRequestEvent','IssuesEvent'].includes(e.type)).slice(0,6);
-    if(!items.length){el.innerHTML='<p style="color:var(--muted)">No recent public activity.</p>';return;}
-    el.innerHTML=items.map(ev=>{
-      const repo=ev.repo.name.replace(GH+'/','');
-      let msg='';
-      switch(ev.type){
-        case 'PushEvent':{
-          const c=ev.payload.commits||[];
-          const last=c.length?c[c.length-1].message.split('\n')[0]:'';
-          msg=`Pushed <strong>${c.length} commit${c.length>1?'s':''}</strong> to <strong>${repo}</strong>${last?' — "'+last+'"':''}`;break;}
-        case 'CreateEvent':msg=`Created ${ev.payload.ref_type} <strong>${ev.payload.ref||repo}</strong>`;break;
-        case 'PullRequestEvent':msg=`${ev.payload.action} PR #${ev.payload.pull_request.number} in <strong>${repo}</strong>`;break;
-        case 'IssuesEvent':msg=`${ev.payload.action} issue #${ev.payload.issue.number} in <strong>${repo}</strong>`;break;
+function fetchRepos() {
+  return cachedFetch(`${API}/users/${GH}/repos?per_page=100&sort=pushed`, 'gh_repos');
+}
+
+function fetchEvents() {
+  return cachedFetch(`${API}/users/${GH}/events/public?per_page=30`, 'gh_events');
+}
+
+/* ============================================================
+   RENDER: PROJECTS
+   ============================================================ */
+function formatRepoName(name) {
+  return name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function inferCategory(repo) {
+  const desc = (repo.description || '').toLowerCase();
+  const name = repo.name.toLowerCase();
+  if (desc.includes('ml') || desc.includes('machine learning') || desc.includes('prediction') || desc.includes('classification')) return 'Machine Learning';
+  if (desc.includes('nlp') || desc.includes('sentiment') || desc.includes('text')) return 'NLP & Text Analytics';
+  if (desc.includes('forecast') || desc.includes('time-series') || desc.includes('time series')) return 'Time-Series & Forecasting';
+  if (desc.includes('a/b') || desc.includes('ab test') || desc.includes('experiment')) return 'Experimentation & Statistics';
+  if (desc.includes('dashboard') || desc.includes('kpi') || desc.includes('operations')) return 'Interactive Dashboard';
+  if (desc.includes('scraping') || desc.includes('scraped') || desc.includes('market')) return 'Web Scraping & Market Research';
+  if (desc.includes('financial') || desc.includes('revenue') || desc.includes('budget')) return 'Financial Analysis';
+  if (desc.includes('customer') || desc.includes('churn') || desc.includes('segmentation')) return 'Customer Analytics';
+  if (desc.includes('rag') || desc.includes('retrieval') || desc.includes('embedding')) return 'AI & Retrieval Systems';
+  if (name.includes('dashboard')) return 'Interactive Dashboard';
+  return 'Data Analytics';
+}
+
+function renderProjects(repos) {
+  const container = document.getElementById('projects-list');
+  const cfg = SITE_CONFIG.projects;
+  const excluded = SITE_CONFIG.excludeRepos.map(r => r.toLowerCase());
+
+  /* Filter: non-fork, non-excluded, has homepage (GitHub Pages) or is in config */
+  const portfolio = repos.filter(r => {
+    if (r.fork) return false;
+    if (excluded.includes(r.name.toLowerCase())) return false;
+    return r.homepage || cfg[r.name];
+  });
+
+  /* Sort by config order first, then by push date */
+  portfolio.sort((a, b) => {
+    const oa = cfg[a.name]?.order ?? 999;
+    const ob = cfg[b.name]?.order ?? 999;
+    if (oa !== ob) return oa - ob;
+    return new Date(b.pushed_at) - new Date(a.pushed_at);
+  });
+
+  /* Update project count in description */
+  const descEl = document.getElementById('projects-desc');
+  if (descEl) descEl.textContent = `${portfolio.length} live projects, each with an interactive dashboard. Click to explore.`;
+
+  container.innerHTML = portfolio.map((repo, i) => {
+    const override = cfg[repo.name] || {};
+    const num = String(i + 1).padStart(2, '0');
+    const type = override.type || inferCategory(repo);
+    const name = override.name || formatRepoName(repo.name);
+    const desc = override.description || repo.description || '';
+    const liveUrl = repo.homepage || `https://${GH}.github.io/${repo.name}/`;
+    const repoUrl = repo.html_url;
+    const topics = (repo.topics || []).map(t =>
+      SITE_CONFIG.topicDisplayNames[t] || t.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+    );
+    /* Deduplicate topics */
+    const uniqueTopics = [...new Set(topics)];
+
+    const statsHtml = (override.stats || []).map(s =>
+      `<div class="stat"><div class="stat-val">${s.val}</div><div class="stat-label">${s.label}</div></div>`
+    ).join('');
+
+    const techHtml = uniqueTopics.map(t => `<span>${t}</span>`).join('');
+
+    return `<div class="project">
+      <div class="proj-content">
+        <div class="proj-num">${num}</div>
+        <div class="proj-type">${type}</div>
+        <h3 class="proj-name">${name}</h3>
+        <p class="proj-desc">${desc}</p>
+        ${statsHtml ? `<div class="proj-stats">${statsHtml}</div>` : ''}
+        ${techHtml ? `<div class="proj-tech">${techHtml}</div>` : ''}
+        <div class="proj-actions">
+          <a href="${liveUrl}" target="_blank" class="proj-btn proj-btn-live">Live Dashboard &#8594;</a>
+          <a href="${repoUrl}" target="_blank" class="proj-btn proj-btn-repo">Source Code</a>
+        </div>
+      </div>
+      <div class="proj-visual">
+        <iframe src="${liveUrl}" loading="lazy" sandbox="allow-scripts allow-same-origin" title="${name}"></iframe>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* ============================================================
+   RENDER: SKILLS (merge API topics + config overrides)
+   ============================================================ */
+function renderSkills(repos) {
+  const container = document.getElementById('skills-container');
+  const categories = {};
+
+  /* Start with config overrides as base */
+  Object.entries(SITE_CONFIG.skillOverrides).forEach(([cat, skills]) => {
+    if (!categories[cat]) categories[cat] = new Set();
+    skills.forEach(s => categories[cat].add(s));
+  });
+
+  /* Add topics from all repos */
+  repos.forEach(repo => {
+    (repo.topics || []).forEach(topic => {
+      const cat = SITE_CONFIG.topicCategories[topic];
+      const display = SITE_CONFIG.topicDisplayNames[topic];
+      if (cat && display) {
+        if (!categories[cat]) categories[cat] = new Set();
+        categories[cat].add(display);
       }
-      return `<div class="activity-item"><div class="activity-msg">${msg}</div><div class="activity-time">${timeAgo(ev.created_at)}</div></div>`;
+    });
+  });
+
+  /* Render order */
+  const catOrder = ['Data & Analytics', 'Visualisation', 'Tools & Platforms', 'Methodology'];
+  const allCats = [...catOrder, ...Object.keys(categories).filter(c => !catOrder.includes(c))];
+
+  container.innerHTML = allCats
+    .filter(cat => categories[cat] && categories[cat].size > 0)
+    .map(cat => {
+      const pills = [...categories[cat]].map(s => `<span class="tech-pill">${s}</span>`).join('');
+      return `<div class="tech-category reveal">
+        <div class="tech-category-label">${cat}</div>
+        <div class="tech-wrap">${pills}</div>
+      </div>`;
     }).join('');
+}
+
+/* ============================================================
+   RENDER: ACTIVITY
+   ============================================================ */
+function timeAgo(d) {
+  const m = Math.floor((Date.now() - new Date(d)) / 60000);
+  if (m < 60) return m + 'm ago';
+  const h = Math.floor(m / 60); if (h < 24) return h + 'h ago';
+  const dy = Math.floor(h / 24); if (dy < 30) return dy + 'd ago';
+  return new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+}
+
+function renderActivity(events) {
+  const el = document.getElementById('activity-timeline');
+  const items = events
+    .filter(e => ['PushEvent', 'CreateEvent', 'PullRequestEvent', 'IssuesEvent'].includes(e.type))
+    .slice(0, 6);
+
+  if (!items.length) { el.innerHTML = '<p style="color:var(--muted)">No recent public activity.</p>'; return; }
+
+  el.innerHTML = items.map(ev => {
+    const repo = ev.repo.name.replace(GH + '/', '');
+    let msg = '';
+    switch (ev.type) {
+      case 'PushEvent': {
+        const c = ev.payload.commits || [];
+        const last = c.length ? c[c.length - 1].message.split('\n')[0] : '';
+        msg = `Pushed <strong>${c.length} commit${c.length > 1 ? 's' : ''}</strong> to <strong>${repo}</strong>${last ? ' \u2014 "' + last + '"' : ''}`;
+        break;
+      }
+      case 'CreateEvent': msg = `Created ${ev.payload.ref_type} <strong>${ev.payload.ref || repo}</strong>`; break;
+      case 'PullRequestEvent': msg = `${ev.payload.action} PR #${ev.payload.pull_request.number} in <strong>${repo}</strong>`; break;
+      case 'IssuesEvent': msg = `${ev.payload.action} issue #${ev.payload.issue.number} in <strong>${repo}</strong>`; break;
+    }
+    return `<div class="activity-item"><div class="activity-msg">${msg}</div><div class="activity-time">${timeAgo(ev.created_at)}</div></div>`;
+  }).join('');
+}
+
+/* ============================================================
+   GSAP ANIMATIONS â runs AFTER dynamic content is in the DOM
+   ============================================================ */
+function initAnimations() {
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* Hero stagger entrance */
+  const heroTl = gsap.timeline({ defaults: { ease: 'power3.out', duration: 1 } });
+  heroTl
+    .fromTo('.hero-tag', { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: .6 })
+    .fromTo('.hero h1', { y: 50, opacity: 0 }, { y: 0, opacity: 1 }, '<0.15')
+    .fromTo('.hero-sub', { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: .7 }, '<0.2')
+    .fromTo('.hero-meta span', { y: 20, opacity: 0 }, { y: 0, opacity: 1, stagger: .1, duration: .5 }, '<0.15')
+    .fromTo('.hero-actions .btn', { y: 20, opacity: 0 }, { y: 0, opacity: 1, stagger: .1, duration: .5 }, '<0.1')
+    .fromTo('.hero-avatar', { scale: .9, opacity: 0 }, { scale: 1, opacity: 1, duration: .8 }, '<0.1');
+
+  /* Reveal elements on scroll */
+  document.querySelectorAll('.reveal').forEach(el => {
+    gsap.fromTo(el,
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, duration: .8, ease: 'power2.out',
+        scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' } }
+    );
+  });
+
+  /* Service cards stagger */
+  if (document.querySelector('.services-grid')) {
+    gsap.fromTo('.service',
+      { y: 40, opacity: 0 },
+      { y: 0, opacity: 1, stagger: .15, duration: .7, ease: 'power2.out',
+        scrollTrigger: { trigger: '.services-grid', start: 'top 80%' } }
+    );
+  }
+
+  /* Timeline items */
+  if (document.querySelector('.timeline')) {
+    gsap.fromTo('.timeline-item',
+      { y: 40, opacity: 0 },
+      { y: 0, opacity: 1, stagger: .2, duration: .7, ease: 'power2.out',
+        scrollTrigger: { trigger: '.timeline', start: 'top 80%' } }
+    );
+  }
+
+  /* Tech pills (dynamic) */
+  const techPills = document.querySelectorAll('.tech-pill');
+  if (techPills.length) {
+    gsap.fromTo('.tech-pill',
+      { y: 15, opacity: 0 },
+      { y: 0, opacity: 1, stagger: .03, duration: .4, ease: 'power2.out',
+        scrollTrigger: { trigger: '#skills', start: 'top 75%' } }
+    );
+  }
+
+  /* Project cards (dynamic) */
+  document.querySelectorAll('.project').forEach(proj => {
+    gsap.fromTo(proj,
+      { y: 60, opacity: 0 },
+      { y: 0, opacity: 1, duration: .9, ease: 'power2.out',
+        scrollTrigger: { trigger: proj, start: 'top 85%' } }
+    );
+  });
+
+  /* Resume float button */
+  gsap.fromTo('#resume-float',
+    { y: 20, opacity: 0 },
+    { y: 0, opacity: 1, duration: .5, ease: 'power2.out',
+      scrollTrigger: { trigger: '#about', start: 'top center' } }
+  );
+
+  /* Parallax orbs */
+  gsap.to('.orb-1', { y: -100, scrollTrigger: { scrub: 1 } });
+  gsap.to('.orb-2', { y: 80, scrollTrigger: { scrub: 1 } });
+  gsap.to('.orb-3', { y: -60, scrollTrigger: { scrub: 1 } });
+}
+
+/* ============================================================
+   BOOT â fetch data, render, then animate
+   ============================================================ */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 60); });
+
+Promise.all([fetchRepos(), fetchEvents()])
+  .then(([repos, events]) => {
+    /* Render dynamic sections */
+    renderProjects(repos);
+    renderSkills(repos);
+    renderActivity(events);
+
+    /* Update footer with repo count */
+    const ft = document.getElementById('footer-text');
+    const projCount = repos.filter(r => !r.fork && !SITE_CONFIG.excludeRepos.includes(r.name) && (r.homepage || SITE_CONFIG.projects[r.name])).length;
+    if (ft) ft.textContent = `Mayank Joshi \u00B7 ${projCount} live projects \u00B7 Auto-updates from GitHub API`;
+
+    /* Init GSAP after DOM is populated */
+    requestAnimationFrame(() => {
+      initAnimations();
+      /* Safety fallback */
+      setTimeout(() => {
+        const selectors = '.hero-tag,.hero h1,.hero-sub,.hero-meta span,.hero-actions .btn,.hero-avatar,.reveal,.service,.timeline-item,.tech-pill,.project,#resume-float';
+        document.querySelectorAll(selectors).forEach(el => {
+          if (parseFloat(getComputedStyle(el).opacity) < 0.5) {
+            gsap.killTweensOf(el);
+            gsap.set(el, { opacity: 1, y: 0, scale: 1, clearProps: 'transform' });
+          }
+        });
+      }, 2500);
+    });
   })
-  .catch(()=>{document.getElementById('activity-timeline').innerHTML='<p style="color:var(--muted)">Could not load activity.</p>';});
+  .catch(err => {
+    console.error('GitHub API error:', err);
+    /* Fallback: render from config keys alone */
+    const fallbackRepos = Object.keys(SITE_CONFIG.projects).map(name => ({
+      name,
+      description: '',
+      html_url: `https://github.com/${GH}/${name}`,
+      homepage: `https://${GH}.github.io/${name}/`,
+      topics: [],
+      fork: false,
+      pushed_at: new Date().toISOString()
+    }));
+    renderProjects(fallbackRepos);
+    renderSkills(fallbackRepos);
+    document.getElementById('activity-timeline').innerHTML = '<p style="color:var(--muted)">Could not load activity.</p>';
+    requestAnimationFrame(() => initAnimations());
+  });
 </script>
 </body>
 </html>
