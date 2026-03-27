@@ -609,11 +609,11 @@ gsap.to('.orb-3',{y:-60,scrollTrigger:{scrub:1}});
 
 // Fallback safety net to ensure visibility
 setTimeout(()=>{
-  document.querySelectorAll('.reveal, .service, .timeline-item, .tech-pill, .project, .hero-actions .btn').forEach(el=>{
-    if(getComputedStyle(el).opacity==='0'){
-      el.style.opacity='1';
-      el.style.transform='none';
-    }
+  gsap.globalTimeline.clear();
+  const selectors='.hero-tag,.hero h1,.hero-sub,.hero-meta span,.hero-actions .btn,.hero-avatar,.reveal,.service,.timeline-item,.tech-pill,.project,#resume-float';
+  document.querySelectorAll(selectors).forEach(el=>{
+    gsap.killTweensOf(el);
+    gsap.set(el,{opacity:1,y:0,scale:1,clearProps:'transform'});
   });
 }, 2000);
 
