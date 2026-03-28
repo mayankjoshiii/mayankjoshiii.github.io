@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Mayank Joshi — Business Analyst & Data Analyst",
+    "description": "Mayank Joshi — Business Analyst & Data Analyst with 4+ years experience. MSc Business Analytics (Distinction), Swansea University. Python, SQL, Tableau, Plotly.js."
+  },
+  "nav": {
+    "logo": "MJ",
+    "links": [
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "email": "mayankjoshi518@gmail.com"
+  },
+  "hero": {
+    "badge": "Available for immediate hire",
+    "heading": "I turn raw data into <em>business decisions.</em>",
+    "subtitle": "Business Analyst and Data Analyst with 4+ years of industry experience. I build end-to-end pipelines, interactive dashboards, and ML models that drive measurable outcomes.",
+    "meta": [
+      "MSc Business Analytics — Distinction",
+      "Swansea University, UK",
+      "Open worldwide"
+    ],
+    "actions": [
+      {
+        "label": "Connect on LinkedIn →",
+        "href": "https://www.linkedin.com/in/mayankjoshi518/",
+        "class": "btn btn-primary",
+        "target": "_blank"
+      },
+      {
+        "label": "View GitHub",
+        "href": "https://github.com/mayankjoshiii",
+        "class": "btn btn-outline",
+        "target": "_blank"
+      },
+      {
+        "label": "Email Me",
+        "href": "mailto:mayankjoshi518@gmail.com",
+        "class": "btn btn-outline"
+      }
+    ],
+    "avatarUrl": "https://avatars.githubusercontent.com/u/268916845?v=4",
+    "avatarAlt": "Mayank Joshi"
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "text": "I completed my <strong>MSc in Management (Business Analytics)</strong> with Distinction at Swansea University in January 2026. Before that, I spent <strong>4+ years</strong> working across business analysis, data analytics, and operations — primarily in <em>enterprise mobility</em> and <em>financial services</em>. My approach: start with the business question, then work backwards through the data. I work daily with <em>AI tools</em> like Claude and ChatGPT to accelerate research and analysis. Applying for my <strong>Graduate visa in May 2026</strong> and available for full-time work immediately."
+  },
+  "services": {
+    "eyebrow": "What I Do",
+    "heading": "My <em>expertise</em>",
+    "description": "Turning complex data into clear business value.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Data Analysis & EDA",
+        "text": "Deep-dive exploratory analysis, hypothesis testing, and statistical modelling to uncover actionable insights from messy real-world datasets."
+      },
+      {
+        "num": "02",
+        "title": "Interactive Dashboards",
+        "text": "Production-ready dashboards with Plotly.js, Tableau, and advanced Excel. Live, filterable, and built for stakeholder decision-making."
+      },
+      {
+        "num": "03",
+        "title": "Machine Learning",
+        "text": "End-to-end ML pipelines with scikit-learn — from feature engineering to model evaluation. Churn prediction, classification, regression."
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Career",
+    "heading": "My career & <em>experience</em>",
+    "description": "",
+    "timeline": [
+      {
+        "title": "MSc Business Analytics",
+        "company": "Swansea University, UK",
+        "description": "Graduated with Distinction. Dissertation on predictive analytics for customer retention. Modules in data mining, business intelligence, and statistical modelling.",
+        "year": "2026"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Enterprise Mobility & Financial Services",
+        "description": "4+ years across business analysis, data analytics, and process improvement. Managed financial reporting, built operational dashboards, and drove data-informed decisions across multiple functions.",
+        "year": "2021"
+      },
+      {
+        "title": "Freelance & Upskilling",
+        "company": "Independent",
+        "description": "Currently building portfolio projects, contributing to open-source, and deepening expertise in Python, ML, and modern analytics tooling. Daily user of AI tools for accelerated research.",
+        "year": "NOW"
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Tech Stack",
+    "heading": "My <em>techstack</em>",
+    "description": "Tools and technologies used across projects and professional experience."
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "heading": "My <em>Work</em>",
+    "description": "Each project has a live interactive dashboard. Click to explore."
+  },
+  "activity": {
+    "eyebrow": "Activity",
+    "heading": "Recent GitHub <em>Activity</em>",
+    "description": "Live from the GitHub Events API."
+  },
+  "contact": {
+    "heading": "Looking for a BA/DA who <em>ships?</em>",
+    "description": "I am available immediately, open to any industry and any location worldwide. Let us talk.",
+    "links": [
+      {
+        "label": "Email",
+        "value": "mayankjoshi518@gmail.com",
+        "href": "mailto:mayankjoshi518@gmail.com"
+      },
+      {
+        "label": "Location",
+        "value": "Swansea, UK — Open worldwide"
+      },
+      {
+        "label": "Social",
+        "value": "LinkedIn ↗",
+        "href": "https://www.linkedin.com/in/mayankjoshi518/",
+        "target": "_blank"
+      },
+      {
+        "label": "Code",
+        "value": "GitHub ↗",
+        "href": "https://github.com/mayankjoshiii",
+        "target": "_blank"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Visa Status",
+        "text": "Applying for UK Graduate visa in May 2026. Available for full-time work immediately, any location worldwide."
+      },
+      {
+        "title": "Preferred Roles",
+        "text": "Business Analyst, Data Analyst, or Analytics roles. Any industry, market-rate compensation."
+      },
+      {
+        "title": "AI-Native Workflow",
+        "text": "Daily user of Claude, ChatGPT, Notion, and GitHub Copilot. Deeply follows AI/tech developments."
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/mayankjoshi518/",
+        "target": "_blank"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/mayankjoshiii",
+        "target": "_blank"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:mayankjoshi518@gmail.com"
+      }
+    ],
+    "text": "Mayank Joshi · Portfolio auto-updates from GitHub API",
+    "floatButton": {
+      "label": "Get in Touch ↗",
+      "href": "mailto:mayankjoshi518@gmail.com"
+    }
+  }
+}
