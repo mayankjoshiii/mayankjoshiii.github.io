@@ -739,8 +739,11 @@ function renderActivity(events) {
     switch (ev.type) {
       case 'PushEvent': {
         const c = ev.payload.commits || [];
+        const n = ev.payload.size || ev.payload.distinct_size || c.length;
         const last = c.length ? c[c.length - 1].message.split('\n')[0] : '';
-        msg = `Pushed <strong>${c.length} commit${c.length > 1 ? 's' : ''}</strong> to <strong>${repo}</strong>${last ? ' \u2014 "' + last + '"' : ''}`;
+        msg = n > 0
+          ? `Pushed <strong>${n} commit${n > 1 ? 's' : ''}</strong> to <strong>${repo}</strong>${last ? ' \u2014 "' + last + '"' : ''}`
+          : `Pushed to <strong>${repo}</strong>`;
         break;
       }
       case 'CreateEvent': msg = `Created ${ev.payload.ref_type} <strong>${ev.payload.ref || repo}</strong>`; break;
