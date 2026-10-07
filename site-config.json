@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mayank Joshi — Business Analyst & Data Analyst",
-    "description": "Mayank Joshi — Business Analyst & Data Analyst with 4+ years experience. MSc Business Analytics (Distinction), Swansea University. Python, SQL, Tableau, Plotly.js."
+    "title": "Mayank Joshi, Business Analyst & Data Analyst",
+    "description": "Mayank Joshi, Business and Data Analyst with nearly four years of experience. MSc Business Analytics (Distinction), Swansea University. Python, SQL, Tableau, Plotly.js."
   },
   "nav": {
     "logo": "MJ",
@@ -28,16 +28,16 @@
   "hero": {
     "badge": "Available for immediate hire",
     "heading": "I turn raw data into <em>business decisions.</em>",
-    "subtitle": "Business Analyst and Data Analyst with 4+ years of industry experience. I build end-to-end pipelines, interactive dashboards, and ML models that drive measurable outcomes.",
+    "subtitle": "Business and data analyst with nearly four years onsite at Google through Vaco and an MSc in Business Analytics (Distinction). I build analysis pipelines and interactive dashboards that turn data into decisions.",
     "meta": [
-      "MSc Business Analytics — Distinction",
+      "MSc Business Analytics, Distinction",
       "Swansea University, UK",
       "Open worldwide"
     ],
     "actions": [
       {
         "label": "Connect on LinkedIn →",
-        "href": "https://www.linkedin.com/in/mayankjoshi518/",
+        "href": "https://www.linkedin.com/in/mayank-joshi-analyst/",
         "class": "btn btn-primary",
         "target": "_blank"
       },
@@ -58,7 +58,7 @@
   },
   "about": {
     "eyebrow": "About Me",
-    "text": "I completed my <strong>MSc in Management (Business Analytics)</strong> with Distinction at Swansea University in January 2026. Before that, I spent <strong>4+ years</strong> working across business analysis, data analytics, and operations — primarily in <em>enterprise mobility</em> and <em>financial services</em>. My approach: start with the business question, then work backwards through the data. I work daily with <em>AI tools</em> like Claude and ChatGPT to accelerate research and analysis. Applying for my <strong>Graduate visa in May 2026</strong> and available for full-time work immediately."
+    "text": "I completed my <strong>MSc in Management (Business Analytics)</strong> with Distinction at Swansea University in January 2026. Before that I spent <strong>nearly four years</strong> as an Associate Analyst at Vaco Binary Semantics, working onsite at <em>Google</em> in Gurugram on reporting, dashboards and process improvement, and training new joiners. My approach: start with the business question, then work backwards through the data. I use AI tools like Claude and ChatGPT day to day to speed up research and analysis. I'm on a UK Graduate visa with full right to work, and available for full-time work immediately."
   },
   "services": {
     "eyebrow": "What I Do",
@@ -73,7 +73,7 @@
       {
         "num": "02",
         "title": "Interactive Dashboards",
-        "text": "Production-ready dashboards with Plotly.js, Tableau, and advanced Excel. Live, filterable, and built for stakeholder decision-making."
+        "text": "Interactive dashboards with Plotly.js, Tableau, and advanced Excel. Live, filterable, and built for stakeholder decision-making."
       },
       {
         "num": "03",
@@ -90,19 +90,19 @@
       {
         "title": "MSc Business Analytics",
         "company": "Swansea University, UK",
-        "description": "Graduated with Distinction. Dissertation on predictive analytics for customer retention. Modules in data mining, business intelligence, and statistical modelling.",
+        "description": "Graduated with Distinction. Team business project for Enterprise Mobility: regression, cluster analysis and NLP sentiment analysis on a survey of 2,495 UK respondents. Modules in data mining, business analytics and strategy.",
         "year": "2026"
       },
       {
-        "title": "Business Analyst",
-        "company": "Enterprise Mobility & Financial Services",
-        "description": "4+ years across business analysis, data analytics, and process improvement. Managed financial reporting, built operational dashboards, and drove data-informed decisions across multiple functions.",
-        "year": "2021"
+        "title": "Associate Analyst",
+        "company": "Vaco Binary Semantics, onsite at Google LLC, Gurugram",
+        "description": "Reporting and analysis for the team and management, KPI dashboards in Looker Studio, Tableau and Excel (VBA), process improvement and root cause work, and training new joiners through shadow sessions.",
+        "year": "2021–25"
       },
       {
-        "title": "Freelance & Upskilling",
-        "company": "Independent",
-        "description": "Currently building portfolio projects, contributing to open-source, and deepening expertise in Python, ML, and modern analytics tooling. Daily user of AI tools for accelerated research.",
+        "title": "Chef de Partie",
+        "company": "Croeso Lounge (Loungers), Swansea",
+        "description": "Working in a high-volume kitchen alongside my job search: deliveries, stock counts and stock analysis, and training new starters. Building analytics portfolio projects on the side.",
         "year": "NOW"
       }
     ]
@@ -138,7 +138,7 @@
       {
         "label": "Social",
         "value": "LinkedIn ↗",
-        "href": "https://www.linkedin.com/in/mayankjoshi518/",
+        "href": "https://www.linkedin.com/in/mayank-joshi-analyst/",
         "target": "_blank"
       },
       {
@@ -151,7 +151,7 @@
     "cards": [
       {
         "title": "Visa Status",
-        "text": "Applying for UK Graduate visa in May 2026. Available for full-time work immediately, any location worldwide."
+        "text": "On a UK Graduate visa with full right to work. Available for full-time work immediately, any location worldwide."
       },
       {
         "title": "Preferred Roles",
@@ -167,7 +167,7 @@
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/mayankjoshi518/",
+        "href": "https://www.linkedin.com/in/mayank-joshi-analyst/",
         "target": "_blank"
       },
       {
