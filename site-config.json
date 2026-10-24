@@ -58,7 +58,7 @@
   },
   "about": {
     "eyebrow": "About Me",
-    "text": "I completed my <strong>MSc in Management (Business Analytics)</strong> with Distinction at Swansea University in January 2026. Before that I spent <strong>nearly four years</strong> as an Associate Analyst at Vaco Binary Semantics, working onsite at <em>Google</em> in Gurugram on reporting, dashboards and process improvement, and training new joiners. My approach: start with the business question, then work backwards through the data. I use AI tools like Claude and ChatGPT day to day to speed up research and analysis. I'm on a UK Graduate visa with full right to work, and available for full-time work immediately."
+    "text": "I completed my <strong>MSc in Management (Business Analytics)</strong> with Distinction at Swansea University in January 2026. Before that I spent <strong>nearly four years</strong> as an analyst at Vaco Binary Semantics, working onsite at <em>Google</em> in Gurugram (Associate Analyst, promoted to Senior Analyst in June 2024) on reporting, dashboards and process improvement, and training new joiners. My approach: start with the business question, then work backwards through the data. I use AI tools like Claude and ChatGPT day to day to speed up research and analysis. I'm on a UK Graduate visa with full right to work, and available for full-time work immediately."
   },
   "services": {
     "eyebrow": "What I Do",
@@ -94,9 +94,9 @@
         "year": "2026"
       },
       {
-        "title": "Associate Analyst",
+        "title": "Associate Analyst, then Senior Analyst",
         "company": "Vaco Binary Semantics, onsite at Google LLC, Gurugram",
-        "description": "Reporting and analysis for the team and management, KPI dashboards in Looker Studio, Tableau and Excel (VBA), process improvement and root cause work, and training new joiners through shadow sessions.",
+        "description": "Reporting and analysis for the team and management, KPI dashboards in Looker Studio, Tableau and Excel (VBA), process improvement and root cause work, and training new joiners through shadow sessions. Promoted to Senior Analyst in June 2024.",
         "year": "2021–25"
       },
       {
